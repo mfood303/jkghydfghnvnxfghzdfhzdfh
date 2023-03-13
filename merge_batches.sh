@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 error() {
-  print -P "%F{1}error:%f ${@:-unknown error}"
+  echo "error: ${@:-unknown error}"
   exit 1
 }
 
