@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/bin/bash
 
 error() {
   echo "error: ${@:-unknown error}"
